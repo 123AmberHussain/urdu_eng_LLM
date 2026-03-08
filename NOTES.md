@@ -85,7 +85,7 @@ OR when wanting to make sure everything is up to date:
 ## Entry 2 - March 7, 2026
 Today, I started with building the tokenizer. 
 
-### train_tokenizer.py###
+### train_tokenizer.py ###
 This file was set up as a test to see how the tokenizer chunks the words differently.
 
 Next I set up the NOTES.md and filled it with my record of things I have done and researched and useful commands for me to go back to. 
