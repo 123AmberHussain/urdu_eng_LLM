@@ -7,6 +7,7 @@
  Today I set up the virtual environment, the github repository, and created a python application to check if my PC has a GPA, and to find it CUDA version. 
  ### Things I learnt
  **Setting up a Virtual Environment**
+ 
  A virtual environment is an isolated environment to run and test python projects. 
  Allows coder to manage project specific dependencies without interfering with other projects or the original python installation. Its like a container, where each:
  * Has its own Python interpreter
