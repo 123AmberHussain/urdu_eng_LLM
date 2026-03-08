@@ -100,3 +100,11 @@ It's the biggest open source AI company.
 
 ### Plans ###
 I'm thinking of monitoring the loss curves, hardware health, and language quality as it goes. I haven't decided on how and when to do that but I would like to be able to moniter the behaviour of the LLM.
+
+1. step2_data.py: Extract text from your PDFs and align the English/Urdu sentences.
+2. monitor.py: Setup the graphs for Loss and BLEU scores.
+3. model.py: Build the actual Neural Network layers that will use your GPU.
+
+**Concept Review**
+- Loss function: score for how wrong the code is right now. lower the better. I've learnt about cross-entropy loss and hinge loss, and I will use cross-entropy loss here because it outputs a probability distribution. 
+- Gradient descent - allows me to optimize the loss function so i know which direction i need to move the learning rate to achieve lowest loss. ideally zero.
