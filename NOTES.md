@@ -66,3 +66,37 @@ Commands:
 - git init
 - echo "venv/" > .gitignore
 - echo "*.pyc" >> .gitignore
+
+To add all the code to a repository, I created a repo on github.com, and in the cmd prompt here, i gave the commands:
+- git add .
+- git commit -m "  "
+- git remote add origin https://github.com/YOUR_USERNAME/urdu_english_LLM.git
+- git branch -M main
+- git push -u origin main
+
+Once this was set up, I could commit to the repo whenever i want like this
+- git add .
+- git commit -m "  "
+- git push
+
+OR when wanting to make sure everything is up to date:
+- git push -u origin main
+
+## Entry 2 - March 7, 2026
+Today, I started with building the tokenizer. 
+
+### train_tokenizer.py###
+This file was set up as a test to see how the tokenizer chunks the words differently.
+
+Next I set up the NOTES.md and filled it with my record of things I have done and researched and useful commands for me to go back to. 
+
+### Things I learnt ###
+**tokenizers by HuggingFace**
+It's the biggest open source AI company. 
+- Tokenizers library: tool so people don't have to write common AI components from scratch. To note, a tokenizer converts text to numbers and back to text again.
+
+- The tokenizer trained today only had 4 sentences, so the BPE (Byte-Pair_encoding), did not learn much. It fell back to single characters (ex: "s", "o", "u", "l") because it did not have enough examples to see letters pair together. 
+    - BPE looks at individual characters and asks which 2 chunks appear together most often and merges them. This is repeated thousands of times.
+
+### Plans ###
+I'm thinking of monitoring the loss curves, hardware health, and language quality as it goes. I haven't decided on how and when to do that but I would like to be able to moniter the behaviour of the LLM.
