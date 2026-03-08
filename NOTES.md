@@ -4,7 +4,7 @@
  This LLM will translate between English and Urdu seemlessly, learning the "flavor" or essense of each language so that it can provide sophisticated translations, understanding nuance, colloquilisms, and cultural references that are often lost in translation. 
 
  ## Entry 1 - February 14, 2026
- Today I set up the virtual environment, the github repository, and created a python application to check if my PC has a GPA, and to find it CUDA version. 
+ Today I set up the virtual environment, the github repository, and created a python application to check if my PC has a GPU, and to find it CUDA version. 
  ### Things I learnt
  **Setting up a Virtual Environment**
 
